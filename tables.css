@@ -1,0 +1,25 @@
+table {
+    border-spacing: 5px;
+}
+th,td {
+   border: 1px solid darkolivegreen;
+   text-align: center;
+   border-collapse: collapse;
+   
+   border: none;
+   border-spacing: 5px;
+   padding: 5px;
+}
+
+th {
+    background-color: khaki;
+    border-spacing: 5px;
+}
+td {
+    background-color: darkred;
+    color: white;
+
+}
+th:nth-child(even),td:nth-child(even){
+    background-color: darkgrey;
+}
